@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Firechat
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- App is powered by Firebase Realtime Database
 
 ## Available Scripts
 
