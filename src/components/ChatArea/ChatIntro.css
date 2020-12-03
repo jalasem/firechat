@@ -17,7 +17,7 @@
 }
 
 .ChatIntro p {
-  width: 70%;
+  max-width: 35rem;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -26,7 +26,8 @@
 }
 
 .ChatIntro .divider {
-  width: 60%;
+  width: 100%;
+  max-width: 30rem;
   height: 1px;
   background-color: #404649;
   margin: 1rem 0 2rem;

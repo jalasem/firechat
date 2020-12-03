@@ -4,6 +4,7 @@
   border-right-color: #404649;
   background-color: #141c21;
   width: 35vw;
+  max-width: 25rem;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -15,7 +16,10 @@
   display: flex;
   align-items: center;
   padding: 0 5%;
+  justify-content: space-between;
 }
+
+
 
 .ChatList nav img {
   border-radius: 50%;
@@ -33,7 +37,7 @@
   background: #313739;
   margin: 0.5rem 1rem;
   border-radius: 1rem;
-  padding: 0.25rem 1rem;
+  padding: 0.25rem .5rem;
 }
 
 .SearchForm input {
@@ -52,6 +56,11 @@
   align-items: center;
 }
 
+.ChatItem:hover {
+  background-color: #323739;
+  cursor: pointer;
+}
+
 .ChatItem img {
   border-radius: 50%;
   margin-right: 1rem;
@@ -66,9 +75,11 @@
 .ChatItem .message {
   margin-top: 0.25rem;
   font-size: 0.85rem;
+  color: #9fa2a5;
 }
 
 .ChatItem .time {
   font-size: 0.7rem;
   margin-bottom: 0.25rem;
+  color: #9fa2a5;
 }

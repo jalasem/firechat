@@ -4,6 +4,10 @@
   background-color: #262d31;
   color: #dbdcdd;
   grid-template-columns: auto 1fr;
+  max-width: 1400px;
+  margin: auto;
+  overflow-y: hidden;
+  position: relative;
 }
 
 .flex {
@@ -40,4 +44,24 @@
 
 .text-center {
   text-align: center;
+}
+
+.Menu {
+  position: fixed;
+  background-color: #2a2f32;
+  left: 1rem;
+  top: 1rem;
+  display: grid;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3),
+    0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.Menu__item {
+  padding: 0.85rem 1.5rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.Menu__item:hover {
+  background-color: #131c2180;
 }
