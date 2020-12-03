@@ -1,0 +1,47 @@
+.Statusarea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.closeIcon {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  cursor: pointer;
+}
+.updates {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  max-width: 40rem;
+}
+.updates p {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+.my-statuses {
+  display: flex;
+  width: 100%;
+  margin-top: 2rem;
+}
+.my-status {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 1rem;
+}
+
+.my-status img {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.my-status span {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0;
+}

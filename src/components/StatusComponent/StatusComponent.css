@@ -6,4 +6,12 @@
   width: 100%;
   z-index: 10;
   background-color: #090e11;
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.StatusList {
+  width: 35vw;
+  max-width: 25rem;
+  background-color: #141414;
 }
