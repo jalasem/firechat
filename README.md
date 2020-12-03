@@ -1,7 +1,7 @@
 # Firechat
 
 - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-- App is powered by Firebase Realtime Database
+- App is powered by [Firebase](https://firebase.google.com) Realtime Database
 
 ## Available Scripts
 
