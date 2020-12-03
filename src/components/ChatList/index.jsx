@@ -34,7 +34,7 @@ export default function ChatList({ chats, openMenu, openStatus }) {
         </div>
       </nav>
       <SearchForm />
-      <div className="flex-1 overflow-y-auto">
+      <div className="chat-items-wrapper flex-1 overflow-y-auto">
         {chats.map((chat) => (
           <ChatItem
             name="Alao Idris"
