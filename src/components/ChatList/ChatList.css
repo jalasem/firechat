@@ -1,0 +1,74 @@
+.ChatList {
+  --border: 1px solid #232d32;
+  border-right: var(--border);
+  border-right-color: #404649;
+  background-color: #141c21;
+  width: 35vw;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.ChatList nav {
+  height: 64px;
+  background-color: #2a2f32;
+  display: flex;
+  align-items: center;
+  padding: 0 5%;
+}
+
+.ChatList nav img {
+  border-radius: 50%;
+  height: 3rem;
+  cursor: pointer;
+}
+
+.SearchForm {
+  border-bottom: var(--border);
+}
+
+.SearchForm form {
+  display: flex;
+  align-items: center;
+  background: #313739;
+  margin: 0.5rem 1rem;
+  border-radius: 1rem;
+  padding: 0.25rem 1rem;
+}
+
+.SearchForm input {
+  background-color: transparent;
+  border: none;
+  font-size: 0.9rem;
+  color: #d1d3d5;
+  padding: .25rem 0;
+  flex: 1;
+}
+
+.ChatItem {
+  border-bottom: var(--border);
+  padding: 0.75rem;
+  display: flex;
+  align-items: center;
+}
+
+.ChatItem img {
+  border-radius: 50%;
+  margin-right: 1rem;
+  height: 3rem;
+}
+
+.ChatItem .name {
+  color: #e2e2e3;
+  font-size: 1.15rem;
+}
+
+.ChatItem .message {
+  margin-top: 0.25rem;
+  font-size: 0.85rem;
+}
+
+.ChatItem .time {
+  font-size: 0.7rem;
+  margin-bottom: 0.25rem;
+}

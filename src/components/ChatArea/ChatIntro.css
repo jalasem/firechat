@@ -1,0 +1,38 @@
+.ChatIntro {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ChatIntro img {
+  border-radius: 50%;
+  width: 17.5rem;
+}
+
+.ChatIntro .title {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.ChatIntro p {
+  width: 70%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  color: #a3a5a7;
+}
+
+.ChatIntro .divider {
+  width: 60%;
+  height: 1px;
+  background-color: #404649;
+  margin: 1rem 0 2rem;
+}
+
+.ChatIntro a {
+  color: #01ad9a;
+  text-decoration: none;
+}
