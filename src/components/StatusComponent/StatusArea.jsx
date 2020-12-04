@@ -10,19 +10,22 @@ function StatusArea({ close }) {
     <div className="Statusarea">
       <CloseIcon onClick={close} className="closeIcon" />
       <div className="updates">
-        <h2>View your updates</h2>
+        <p>View your updates</p>
         <div className="my-statuses">
           <div className="my-status">
-            <img src="/images/status.jpg" alt="see icon" /> 
-            <SeeIcon />
+            <img src="/images/status.jpg" alt="see icon"  /> 
+            <span><SeeIcon /> 34</span>
+            <small> yesterday at 7:49PM</small>
           </div>
           <div className="my-status">
             <img src="/images/status.jpg" alt="see icon" />
-            <SeeIcon />
+            <span><SeeIcon /> 54</span>
+            <small> yesterday at 7:49PM</small>
           </div>
           <div className="my-status">
             <img src="/images/status.jpg" alt="see icon" /> 
-            <span><SeeIcon /></span>
+            <span><SeeIcon /> 4</span>
+             <small> yesterday at 7:49PM</small>
           </div>
         </div>
       </div>
