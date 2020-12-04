@@ -3,10 +3,10 @@ import "./StatusComponent.css";
 import StatusList from './StatusList'
 import StatusArea from './StatusArea'
 
-function StatusComponent({ closeStatus }) {
+function StatusComponent({ closeStatus,chats }) {
   return(
     <div className="StatusComponent">
-      <StatusList />
+      <StatusList chats={chats} />
       <StatusArea close={closeStatus} />
     </div>
   );
