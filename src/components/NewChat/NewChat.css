@@ -1,0 +1,33 @@
+.NewChat {
+  position: absolute;
+  /* left: -35vw; */
+  top: 0;
+  width: 35vw;
+  max-width: 25rem;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: #131c21;
+  transition: left 0.35s ease-in-out;
+}
+
+/* .NewChat.new-active {
+  left: 0;
+} */
+
+.NewChat nav {
+  display: flex;
+  height: 17vh;
+  background: #323739;
+  align-items: flex-end;
+  padding: 0 1.5rem;
+}
+.NewChat .header {
+  height: 60%;
+  width: 100%;
+}
+.NewChat .title {
+  margin-left: 2rem;
+  font-size: 1.15rem;
+  color: #d6d6d8;
+}
