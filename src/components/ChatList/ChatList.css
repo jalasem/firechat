@@ -49,7 +49,7 @@
 
 .chat-items-wrapper::-webkit-scrollbar {
   background-color: transparent;
-  width: 8px;
+  width: 5px;
 }
 .chat-items-wrapper::-webkit-scrollbar-thumb {
   background-color: #394045;
