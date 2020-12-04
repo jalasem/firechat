@@ -65,3 +65,56 @@
 .Menu__item:hover {
   background-color: #131c2180;
 }
+
+.AuthView {
+  display: grid;
+  place-items: center;
+  place-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f1f1f1;
+}
+
+.AuthView .title {
+  color: #075E54;
+}
+
+.AuthView form {
+  display: grid;
+  grid-row-gap: 0.5rem;
+}
+
+.AuthView input {
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  border: 2px solid #128C7E;
+  border-radius: 4px;
+  min-width: 20rem;
+  transition: border ease-in 0.2s;
+}
+.AuthView input:focus {
+  border: 2px solid #075E54;
+}
+
+.AuthView button {
+  padding: 0.65rem 1rem;
+  background-color: #128C7E;
+  transition: background ease-in-out 0.3s;
+  border: none;
+  color: white;
+  font-weight: 500;
+  font-size: 1.25rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.AuthView button:hover {
+  background-color: #075E54;
+}
+.AuthView p {
+  font-size: 0.85rem;
+  text-align: center;
+}
+.AuthView p > span {
+  cursor: pointer;
+  color: #075E54;
+}

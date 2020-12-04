@@ -1,4 +1,5 @@
 import React from "react";
+import { auth } from "../../utils/firebase";
 import ChatItem from "./ChatItem";
 import "./ChatList.css";
 import SearchForm from "./SearchForm";
@@ -11,7 +12,7 @@ const optionItems = [
   { text: "New group" },
   { text: "Profile" },
   { text: "Settings" },
-  { text: "Logout" },
+  { text: "Logout", clickAction: () => auth.signOut() },
 ];
 const chatItems = [
   { text: "Archive chat" },
