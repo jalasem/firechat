@@ -39,6 +39,7 @@
   height: 6rem;
   border-radius: 50%;
   margin-bottom: 1rem;
+  cursor: pointer;
 }
 .my-status span {
   display: flex;
