@@ -11,10 +11,6 @@
   transition: left 0.35s ease-in-out;
 }
 
-/* .NewChat.new-active {
-  left: 0;
-} */
-
 .NewChat nav {
   display: flex;
   height: 17vh;

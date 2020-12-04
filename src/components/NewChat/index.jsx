@@ -4,12 +4,12 @@ import './NewChat.css'
 
 import BackArrow from '../icons/BackArrow'
 
-const NewChat = ({handleNewChat,isNewChat}) => {
+const NewChat = ({handleNewChatOpen,newChatOpen}) => {
     return (
-        <div className="NewChat" style={isNewChat? {left:'0'} : {left:'-35vw'}}>
+        <div className="NewChat" style={newChatOpen? {left:'0'} : {left:'-35vw'}}>
             <nav>
                 <div className=" header flex items-center">
-                    <BackArrow onClick={handleNewChat} style={{cursor:'pointer'}} />
+                    <BackArrow onClick={handleNewChatOpen} style={{cursor:'pointer'}} />
                     <span className="title">New chat</span>
                 </div>
             </nav>
