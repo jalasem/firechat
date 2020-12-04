@@ -1,9 +1,12 @@
 .ChatIntro {
   height: 100vh;
-  display: flex;
+  /* display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: column; */
+  display: grid;
+  place-items: center;
+  place-content: center;
 }
 
 .ChatIntro img {

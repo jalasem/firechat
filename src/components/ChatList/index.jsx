@@ -13,10 +13,26 @@ const optionItems = [
   { text: "Settings" },
   { text: "Logout" },
 ];
+const chatItems = [
+  { text: "Archive chat" },
+  { text: "Delete chat/Exit group" },
+  { text: "Mark as unread" },
+];
 
-export default function ChatList({ chats, openMenu, openStatus,handleNewChatOpen }) {
+export default function ChatList({
+  chats,
+  openMenu,
+  openStatus,
+  handleNewChatOpen,
+}) {
   const _openMenu = (event, items) => {
+    event.preventDefault();
+
     openMenu(items, { top: `${event.clientY}px`, left: `${event.clientX}px` });
+  };
+
+  const _openChatMenu = (event) => {
+    _openMenu(event, chatItems);
   };
 
   return (
@@ -41,6 +57,7 @@ export default function ChatList({ chats, openMenu, openStatus,handleNewChatOpen
             text="But really, I don't its risky"
             time="Yesterday"
             key={`chat-${chat}`}
+            showChatOptions={(event) => _openChatMenu(event)}
           />
         ))}
       </div>
