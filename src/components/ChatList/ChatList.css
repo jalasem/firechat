@@ -50,12 +50,9 @@
 .chat-items-wrapper::-webkit-scrollbar {
   background-color: transparent;
   width: 8px;
-  height: 8px;
 }
 .chat-items-wrapper::-webkit-scrollbar-thumb {
   background-color: #394045;
-  width: 8px;
-  min-height: 10px;
 }
 
 .ChatItem {
@@ -68,6 +65,10 @@
 .ChatItem:hover {
   background-color: #323739;
   cursor: pointer;
+}
+
+.ChatItem.StatusView:hover {
+  background-color: #313131;
 }
 
 .ChatItem img {

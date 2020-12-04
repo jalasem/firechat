@@ -38,7 +38,7 @@ export default function App() {
         />
       )}
       {statusOpen && (
-        <StatusComponent closeStatus={() => setStatusOpen(false)} />
+        <StatusComponent closeStatus={() => setStatusOpen(false)} chats={chats} />
       )}
     </div>
   );
